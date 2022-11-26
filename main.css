@@ -1,0 +1,97 @@
+body
+{
+    background-color: #a2cae5;
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+}   
+header
+{
+    background-color: rgb(232, 207, 207);
+    text-align: right;
+    padding: .75rem 0;
+    border-bottom: solid 1px dimgrey;
+    box-shadow:
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+header a
+{
+    color: whitesmoke;
+    background-color: rgb(186, 138, 138);
+    border: solid 1px gray;
+    border-radius: 3px;
+    padding: .25rem .5rem;
+    margin-right: .5rem;
+    /* line-height adjusts the amount of space taken up for the font */
+    /* This removes the underline from the a tag */
+    text-decoration: none;
+}
+header a:hover
+{
+    background-color: #9e4e6f;
+    cursor : pointer;
+}
+.container 
+{
+    margin: auto;
+    padding: 1.5rem;
+    background-color: whitesmoke;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: 
+        0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container > h1
+{
+    margin: 0 0 .5rem;
+}
+form input, form button
+{
+    width: 100%;
+    min-width: 300px;
+    /* 
+    Our inputs and forms have different default sizes.
+    By changing the box-sizing, we can fix this.
+    */
+    box-sizing: border-box;
+    margin: .75rem 0;
+    padding: .25rem;
+    line-height: 1.5rem;
+    font-size: 1em;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+form button
+{
+    color: whitesmoke;
+    background-color: rgb(186, 138, 138);
+    cursor: pointer;
+}
+header a:hover, form button:hover
+{
+    background-color: #9e4e6f;
+    cursor: pointer;
+}
+footer 
+{
+    margin-top: .75rem;
+    border-top: solid 1px lightgray;
+    padding-top: 1rem;
+    text-align: center;
+}
+footer img 
+{
+    margin: 0 .5rem;
+}
+
+footer img:hover 
+{
+    cursor: pointer;
+}
